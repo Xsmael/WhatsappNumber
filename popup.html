@@ -2,14 +2,34 @@
 <html>
 
 <head>
+  <title>Whatsapp Number</title>
   <style>
+    .btn{
+      margin-top: 5px;
+      border-radius: 3px;
+      background-color: darkgrey;
+      font-weight: bold;
+      width: 100%;
+    }
+
+    .blue {
+      background-color:darkorchid;
+    }
   </style>
 </head>
 
 <body>
-  <input id="groupName" type="text" placeholder="Nom du groupe">
-  <input id="groupDesc" type="text" placeholder="Description">
-  <button id="changeColor">Télécharger</button>
+  <div id="auth">
+    <input id="groupName" type="text" placeholder="Nom du groupe">
+    <input id="groupDesc" type="text" placeholder="Description">
+    <button id="downloadBtn" class="btn">Telecharger</button>    
+  </div>
+  
+  <div id="un-auth">
+    <input id="phone" type="text" placeholder="Telephone">
+    <input id="key" type="text" placeholder="Entrez le code">
+    <button id="activateBtn" class="btn blue">Activer</button>
+  </div>
   <script src="popup.js"></script>
 </body>
 

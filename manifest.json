@@ -3,8 +3,8 @@
     "version": "1.0",
     "description": "Télécharger la totalité des numéros sur n'importe quel groupe whatsapp",
     "manifest_version": 2,
-    "permissions": ["http://www.google.com/",
-      "https://www.google.com/","activeTab", "declarativeContent", "storage"],
+    "permissions": ["http://localhost/",
+      "https://www.google.com/", "http://160.226.184.146:8008/*","activeTab", "declarativeContent", "storage"],
     "page_action": {
         "default_popup": "popup.html",
         "default_icon": {
